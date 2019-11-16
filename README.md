@@ -55,7 +55,7 @@ dependencies {
     
     restorer.takeSnapshot()
     
-    // later call this to restore to the state when you called snapshot
+    // later call this to restore to the state when you called takeSnapshot
     restorer.restore()
 
 ## Example
