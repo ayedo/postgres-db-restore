@@ -58,6 +58,6 @@ dependencies {
     // later call this to restore to the state when you called snapshot
     restorer.restore()
 
-## jUnit 5 Extension
+## Example
 
 An example of how you could use this library with jUnit5 can be found [here](https://github.com/ayedo/postgres-db-restore/blob/master/src/main/resources/templates/DatabaseExtension.kt).
