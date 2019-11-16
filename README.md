@@ -45,7 +45,7 @@ dependencies {
 
 ## Usage
 
-    val databaseRestorer = DatabaseRestorer(
+    val restorer = DatabaseRestorer(
         databaseName = "postgres",
         host = "localhost",
         port = 5432,
@@ -53,7 +53,7 @@ dependencies {
         password = "postgres"
     )
     
-    databaseRestorer.takeSnapshot()
+    restorer.takeSnapshot()
     
     // later call this to restore to the state when you called snapshot
     restorer.restore()
