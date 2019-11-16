@@ -39,7 +39,7 @@ Add the dependency:
 
 ```groovy
 dependencies {
-    testImplementation 'com.github.ayedo:PostgresDbRestore:v1.0.0'
+    testImplementation 'com.github.ayedo:postgres-db-restore:v1.0.0'
 }
 ```
 
