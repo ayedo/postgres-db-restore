@@ -8,9 +8,9 @@ It was developed as means to speed up integration tests.
 
 In many integration test scenarios the database needs to be setup before it can be used in a test. For example, often migrations need to be run.
 
-When writing isolated tests one would like to have the database in a 'clean' state for each test. This 'clean' state almost never means an 'empty' database, but one that has been setup.
+When writing isolated tests one would like to have the database in a 'clean' state for each test. This 'clean' state almost never means an 'empty' database, but one that has been set up.
 
-The combination of these factors can lead to increasingly long running integration tests, because the database needs to be setup for each test.
+The combination of these factors can lead to increasingly long running integration tests, because the database needs to be set up for each test.
 
 This library may help you to speed up integration tests by providing a means to _quickly_ restore a Postgres database to a previous 'clean' state before each test. 
 
