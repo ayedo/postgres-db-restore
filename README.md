@@ -60,4 +60,4 @@ dependencies {
 
 ## jUnit 5 Extension
 
-An example of how you could use this library with jUnit5 can be found [here]().
+An example of how you could use this library with jUnit5 can be found [here](https://github.com/ayedo/postgres-db-restore/blob/master/src/main/resources/templates/DatabaseExtension.kt).
